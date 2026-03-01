@@ -1,0 +1,68 @@
+body
+{
+  text-align: center;
+}
+
+h1
+{
+  font-size: 70px;
+}
+
+p
+{
+  font-size: 20px;
+}
+
+button
+{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.selected
+{
+  background: greenyellow;
+}
+
+.row1
+{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.row2
+{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.roll
+{
+  width: 100px;
+  margin-top: 40px;
+  background-color: purple;
+  color: white;
+}
+
+.roll
+{
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.roll:hover
+{
+  transform: scaleX(1.1);
+}
+
+button:hover
+{
+  transform: scaleX(1.1);
+}
